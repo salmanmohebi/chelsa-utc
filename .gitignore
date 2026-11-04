@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+build/
+dist/
+
+# local settings and data (see config.example.toml)
+config.toml
+/data/

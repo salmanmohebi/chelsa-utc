@@ -1,0 +1,36 @@
+# chelsa-utc settings. Copy this file to `config.toml` (ignored by git) and edit the paths.
+# Lookup order: --config <file>  >  $CHELSA_UTC_CONFIG  >  ./config.toml  >  the defaults below.
+#
+# "{root}" is replaced by `root`. Relative paths are relative to the config file.
+# Every path can point to files that already exist: they are used as a cache and never rebuilt
+# (see README, "Reusing existing files").
+
+[paths]
+root = "data"
+
+# Hourly ERA5 single-level fields 1940-1979 (a mirror of ARCO-ERA5, `chelsa-utc era5-hourly ...`).
+era5_hourly = "{root}/era5/era5-arco-hourly.zarr"
+
+# Published CHELSA V2.1 files, in the layout of the public bucket:
+#   <chelsa_v21>/daily/<var>/<year>/CHELSA_<var>_<dd>_<mm>_<yyyy>_V.2.1.tif   (tz, we, clt, hurs, sfcWind, ...)
+#   <chelsa_v21>/input/static/{dem_latlong,expocor,patch,orography}.sdat
+chelsa_v21 = "{root}/chelsa-v2.1"
+
+# Clear-sky radiation, one file per day of year: CHELSA_stot_pj_<doy>_V.2.1.tif
+stot = "{root}/chelsa-v2.1/rsdscs"
+
+# Optional: the daily ERA5 input files of CHELSA V2.1 (<dir>/<year>/<yyyymmdd>/<stem>.nc), for the
+# mirror test (`compare --window v21files --reference v21`). Not public; ask WSL.
+# v21_era5_inputs = "/path/to/chelsa/input/era5"
+
+# Daily ERA5 stores, one per day window (cache of `era5-daily build`).
+[paths.era5_daily]
+utc = "{root}/era5/era5-utc-daily.zarr"
+chelsa0606 = "{root}/era5/era5-chelsa0606-daily.zarr"
+
+# Output stores, one per day window.
+#   utc         CHELSA-UTC
+#   chelsa0606  CHELSA V2.1 rebuilt from hourly ERA5 (06->06 window, V2.1 formulas)
+[paths.chelsa]
+utc = "{root}/chelsa-utc.zarr"
+chelsa0606 = "{root}/chelsa-chelsa0606.zarr"

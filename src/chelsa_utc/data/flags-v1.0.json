@@ -1,0 +1,492 @@
+{
+ "product": "CHELSA-UTC v1.0, 1941-1978 (13 864 days; inputs as on the public CHELSA V2.1 bucket on 2026-11-04)",
+ "description": "(variable, date) pairs that are broken or doubtful; leave them out of any analysis",
+ "dates": [
+  "1946-04-26",
+  "1946-06-04",
+  "1946-10-06",
+  "1946-10-09",
+  "1946-12-06",
+  "1947-01-29",
+  "1948-07-23",
+  "1948-10-24",
+  "1949-02-21",
+  "1949-10-25",
+  "1950-03-03",
+  "1951-05-31",
+  "1951-07-17",
+  "1951-09-27",
+  "1951-09-28",
+  "1951-11-23",
+  "1952-06-26",
+  "1952-07-31",
+  "1954-11-16",
+  "1954-11-18",
+  "1954-11-19",
+  "1954-11-24",
+  "1955-07-23",
+  "1955-10-26",
+  "1956-05-11",
+  "1956-08-10",
+  "1956-08-17",
+  "1957-02-07",
+  "1957-03-02",
+  "1957-03-25",
+  "1957-09-11",
+  "1957-10-21",
+  "1958-05-31",
+  "1959-04-14",
+  "1960-05-17",
+  "1961-12-06",
+  "1962-03-18",
+  "1962-08-15",
+  "1962-09-25",
+  "1962-10-22",
+  "1963-05-28",
+  "1965-07-15",
+  "1966-03-10",
+  "1966-09-25",
+  "1966-11-19",
+  "1967-01-17",
+  "1967-02-24",
+  "1971-09-23",
+  "1972-04-22",
+  "1973-12-12",
+  "1973-12-26",
+  "1974-03-31"
+ ],
+ "records": [
+  {
+   "variable": "prec",
+   "date": "1946-04-26",
+   "reason": "known source issue: published `we` (wind effect) was built from a broken 10 m wind input",
+   "min": 0.0,
+   "max": 232.4,
+   "mean": 2.40718526011315
+  },
+  {
+   "variable": "prec",
+   "date": "1946-06-04",
+   "reason": "known source issue: published `we` (wind effect) was built from a broken 10 m wind input",
+   "min": 0.0,
+   "max": 368.8,
+   "mean": 2.5614403467757603
+  },
+  {
+   "variable": "rsds",
+   "date": "1946-10-06",
+   "reason": "all-NaN",
+   "min": null,
+   "max": null,
+   "mean": null
+  },
+  {
+   "variable": "rsds",
+   "date": "1946-10-09",
+   "reason": "all-NaN",
+   "min": null,
+   "max": null,
+   "mean": null
+  },
+  {
+   "variable": "rsds",
+   "date": "1946-12-06",
+   "reason": "all-NaN",
+   "min": null,
+   "max": null,
+   "mean": null
+  },
+  {
+   "variable": "rsds",
+   "date": "1947-01-29",
+   "reason": "known source issue: published `clt` was built from a broken total-cloud-cover input",
+   "min": 0.0,
+   "max": 415.20000000000005,
+   "mean": 187.3405426944755
+  },
+  {
+   "variable": "rsds",
+   "date": "1948-07-23",
+   "reason": "known source issue: published `clt` was built from a broken total-cloud-cover input",
+   "min": 0.0,
+   "max": 399.5,
+   "mean": 153.03506705790144
+  },
+  {
+   "variable": "rsds",
+   "date": "1948-10-24",
+   "reason": "only 0.986 of pixels valid",
+   "min": 0.0,
+   "max": 517.7,
+   "mean": 172.50342867025645
+  },
+  {
+   "variable": "rsds",
+   "date": "1949-02-21",
+   "reason": "known source issue: published `clt` was built from a broken total-cloud-cover input",
+   "min": 0.0,
+   "max": 397.0,
+   "mean": 169.28960518859978
+  },
+  {
+   "variable": "rsds",
+   "date": "1949-10-25",
+   "reason": "all-NaN",
+   "min": null,
+   "max": null,
+   "mean": null
+  },
+  {
+   "variable": "prec",
+   "date": "1950-03-03",
+   "reason": "known source issue: published `we` (wind effect) was built from a broken 10 m wind input",
+   "min": 0.0,
+   "max": 207.5,
+   "mean": 2.2645062935403315
+  },
+  {
+   "variable": "prec",
+   "date": "1951-05-31",
+   "reason": "known source issue: published `we` (wind effect) was built from a broken 10 m wind input",
+   "min": 0.0,
+   "max": 171.0,
+   "mean": 2.487441046665794
+  },
+  {
+   "variable": "rsds",
+   "date": "1951-07-17",
+   "reason": "known source issue: published `clt` was built from a broken total-cloud-cover input",
+   "min": 0.0,
+   "max": 415.20000000000005,
+   "mean": 155.8347612534589
+  },
+  {
+   "variable": "prec",
+   "date": "1951-09-27",
+   "reason": "known source issue: published `we` (wind effect) was built from a broken 10 m wind input",
+   "min": 0.0,
+   "max": 174.3,
+   "mean": 2.4883393891683445
+  },
+  {
+   "variable": "prec",
+   "date": "1951-09-28",
+   "reason": "known source issue: published `we` (wind effect) was built from a broken 10 m wind input",
+   "min": 0.0,
+   "max": 307.20000000000005,
+   "mean": 2.4723632617030735
+  },
+  {
+   "variable": "prec",
+   "date": "1951-11-23",
+   "reason": "known source issue: published `we` (wind effect) was built from a broken 10 m wind input",
+   "min": 0.0,
+   "max": 323.20000000000005,
+   "mean": 2.293927895433268
+  },
+  {
+   "variable": "rsds",
+   "date": "1952-06-26",
+   "reason": "only 0.984 of pixels valid",
+   "min": 0.0,
+   "max": 542.2,
+   "mean": 155.11190347450324
+  },
+  {
+   "variable": "hurs",
+   "date": "1952-07-31",
+   "reason": "unchanged from published V2.1 (QC of the published file): daily mean 0.048 jumps 296 MAD from its 15-day median",
+   "min": 0.004,
+   "max": 0.254,
+   "mean": 0.04780863358414768
+  },
+  {
+   "variable": "rsds",
+   "date": "1954-11-16",
+   "reason": "all-NaN",
+   "min": null,
+   "max": null,
+   "mean": null
+  },
+  {
+   "variable": "rsds",
+   "date": "1954-11-18",
+   "reason": "all-NaN",
+   "min": null,
+   "max": null,
+   "mean": null
+  },
+  {
+   "variable": "rsds",
+   "date": "1954-11-19",
+   "reason": "all-NaN",
+   "min": null,
+   "max": null,
+   "mean": null
+  },
+  {
+   "variable": "hurs",
+   "date": "1954-11-24",
+   "reason": "unchanged from published V2.1 (QC of the published file): daily mean 0.048 jumps 295 MAD from its 15-day median",
+   "min": 0.005,
+   "max": 0.26,
+   "mean": 0.04778711543315602
+  },
+  {
+   "variable": "prec",
+   "date": "1955-07-23",
+   "reason": "known source issue: published `we` (wind effect) was built from a broken 10 m wind input",
+   "min": 0.0,
+   "max": 244.0,
+   "mean": 2.485931545705596
+  },
+  {
+   "variable": "rsds",
+   "date": "1955-10-26",
+   "reason": "known source issue: published `clt` was built from a broken total-cloud-cover input",
+   "min": 0.0,
+   "max": 409.20000000000005,
+   "mean": 173.87577561661877
+  },
+  {
+   "variable": "prec",
+   "date": "1956-05-11",
+   "reason": "known source issue: published `we` (wind effect) was built from a broken 10 m wind input",
+   "min": 0.0,
+   "max": 254.5,
+   "mean": 2.4607881756304306
+  },
+  {
+   "variable": "prec",
+   "date": "1956-08-10",
+   "reason": "known source issue: published `we` (wind effect) was built from a broken 10 m wind input",
+   "min": 0.0,
+   "max": 278.90000000000003,
+   "mean": 2.5476641230000014
+  },
+  {
+   "variable": "prec",
+   "date": "1956-08-17",
+   "reason": "known source issue: published `we` (wind effect) was built from a broken 10 m wind input",
+   "min": 0.0,
+   "max": 248.60000000000002,
+   "mean": 2.261527885911486
+  },
+  {
+   "variable": "rsds",
+   "date": "1957-02-07",
+   "reason": "known source issue: published `clt` was built from a broken total-cloud-cover input",
+   "min": 0.0,
+   "max": 410.0,
+   "mean": 178.77447623866982
+  },
+  {
+   "variable": "prec",
+   "date": "1957-03-02",
+   "reason": "known source issue: published `we` (wind effect) was built from a broken 10 m wind input",
+   "min": 0.0,
+   "max": 146.3,
+   "mean": 2.1300947198953644
+  },
+  {
+   "variable": "rsds",
+   "date": "1957-03-25",
+   "reason": "only 0.988 of pixels valid",
+   "min": 0.0,
+   "max": 485.0,
+   "mean": 158.2538145466256
+  },
+  {
+   "variable": "prec",
+   "date": "1957-09-11",
+   "reason": "known source issue: published `we` (wind effect) was built from a broken 10 m wind input",
+   "min": 0.0,
+   "max": 257.0,
+   "mean": 2.398141742804675
+  },
+  {
+   "variable": "prec",
+   "date": "1957-10-21",
+   "reason": "known source issue: published `we` (wind effect) was built from a broken 10 m wind input",
+   "min": 0.0,
+   "max": 308.0,
+   "mean": 2.365480885134821
+  },
+  {
+   "variable": "prec",
+   "date": "1958-05-31",
+   "reason": "known source issue: published `we` (wind effect) was built from a broken 10 m wind input",
+   "min": 0.0,
+   "max": 177.20000000000002,
+   "mean": 2.384941695955837
+  },
+  {
+   "variable": "rsds",
+   "date": "1959-04-14",
+   "reason": "only 0.989 of pixels valid",
+   "min": 0.0,
+   "max": 476.6,
+   "mean": 160.10356531564102
+  },
+  {
+   "variable": "prec",
+   "date": "1960-05-17",
+   "reason": "known source issue: published `we` (wind effect) was built from a broken 10 m wind input",
+   "min": 0.0,
+   "max": 187.0,
+   "mean": 2.320778738569322
+  },
+  {
+   "variable": "rsds",
+   "date": "1961-12-06",
+   "reason": "all-NaN",
+   "min": null,
+   "max": null,
+   "mean": null
+  },
+  {
+   "variable": "rsds",
+   "date": "1962-03-18",
+   "reason": "all-NaN",
+   "min": null,
+   "max": null,
+   "mean": null
+  },
+  {
+   "variable": "rsds",
+   "date": "1962-08-15",
+   "reason": "known source issue: published `clt` was built from a broken total-cloud-cover input",
+   "min": 0.0,
+   "max": 363.0,
+   "mean": 151.319028448165
+  },
+  {
+   "variable": "sfcWind",
+   "date": "1962-09-25",
+   "reason": "unchanged from published V2.1 (QC of the published file): constant field (0)",
+   "min": 0.0,
+   "max": 0.0,
+   "mean": 0.0
+  },
+  {
+   "variable": "prec",
+   "date": "1962-10-22",
+   "reason": "known source issue: published `we` (wind effect) was built from a broken 10 m wind input",
+   "min": 0.0,
+   "max": 187.5,
+   "mean": 2.3845202004335206
+  },
+  {
+   "variable": "prec",
+   "date": "1963-05-28",
+   "reason": "known source issue: published `we` (wind effect) was built from a broken 10 m wind input",
+   "min": 0.0,
+   "max": 216.9,
+   "mean": 2.3538800557269064
+  },
+  {
+   "variable": "rsds",
+   "date": "1965-07-15",
+   "reason": "known source issue: published `clt` was built from a broken total-cloud-cover input",
+   "min": 0.0,
+   "max": 399.1,
+   "mean": 154.85001629549808
+  },
+  {
+   "variable": "tas",
+   "date": "1966-03-10",
+   "reason": "known source issue: published `tz` (lapse rate) of this day is broken (~0.3 K/m)",
+   "min": 0.0,
+   "max": 1458.6000000000001,
+   "mean": 277.12576740745175
+  },
+  {
+   "variable": "tasmax",
+   "date": "1966-03-10",
+   "reason": "known source issue: published `tz` (lapse rate) of this day is broken (~0.3 K/m)",
+   "min": 0.0,
+   "max": 1459.6000000000001,
+   "mean": 279.1790777666915
+  },
+  {
+   "variable": "tasmin",
+   "date": "1966-03-10",
+   "reason": "known source issue: published `tz` (lapse rate) of this day is broken (~0.3 K/m)",
+   "min": 0.0,
+   "max": 1455.2,
+   "mean": 275.1296616901474
+  },
+  {
+   "variable": "sfcWind",
+   "date": "1966-09-25",
+   "reason": "unchanged from published V2.1 (QC of the published file): daily mean 0.103 jumps 45 MAD from its 15-day median",
+   "min": 0.0,
+   "max": 24.84,
+   "mean": 0.10281501978257138
+  },
+  {
+   "variable": "prec",
+   "date": "1966-11-19",
+   "reason": "known source issue: published `we` (wind effect) was built from a broken 10 m wind input",
+   "min": 0.0,
+   "max": 290.1,
+   "mean": 2.490925494327269
+  },
+  {
+   "variable": "sfcWind",
+   "date": "1967-01-17",
+   "reason": "unchanged from published V2.1 (QC of the published file): daily mean 0.475 jumps 40 MAD from its 15-day median",
+   "min": 0.0,
+   "max": 47.31,
+   "mean": 0.47473395762994197
+  },
+  {
+   "variable": "sfcWind",
+   "date": "1967-02-24",
+   "reason": "unchanged from published V2.1 (QC of the published file): constant field (0)",
+   "min": 0.0,
+   "max": 0.0,
+   "mean": 0.0
+  },
+  {
+   "variable": "rsds",
+   "date": "1971-09-23",
+   "reason": "only 0.979 of pixels valid",
+   "min": 0.0,
+   "max": 432.6,
+   "mean": 152.43210154601272
+  },
+  {
+   "variable": "rsds",
+   "date": "1972-04-22",
+   "reason": "all-NaN",
+   "min": null,
+   "max": null,
+   "mean": null
+  },
+  {
+   "variable": "rsds",
+   "date": "1973-12-12",
+   "reason": "known source issue: published `clt` was built from a broken total-cloud-cover input",
+   "min": 0.0,
+   "max": 483.90000000000003,
+   "mean": 198.66920594679033
+  },
+  {
+   "variable": "rsds",
+   "date": "1973-12-26",
+   "reason": "known source issue: published `clt` was built from a broken total-cloud-cover input",
+   "min": 0.0,
+   "max": 483.90000000000003,
+   "mean": 197.620190804376
+  },
+  {
+   "variable": "rsds",
+   "date": "1974-03-31",
+   "reason": "known source issue: published `clt` was built from a broken total-cloud-cover input",
+   "min": 0.0,
+   "max": 385.6,
+   "mean": 157.49925097925095
+  }
+ ]
+}
